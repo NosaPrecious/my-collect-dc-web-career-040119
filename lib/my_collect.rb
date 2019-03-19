@@ -9,8 +9,7 @@ def my_collect(arr)
   # because you have to pass the content of the modified block back to my_collect method
   
   arr.map do |elem|
-    
-  
+    elem.split(" ").first
   else
     "not called by a block!"
   end
