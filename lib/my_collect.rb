@@ -1,4 +1,5 @@
 def my_collect(arr)
+  if arr.length > 0
   if block_given?
     count= 0
     while count < arr.length
@@ -22,5 +23,7 @@ end
   else
     "not called by a block!"
   end
+else
+  arr.length
 end
 
