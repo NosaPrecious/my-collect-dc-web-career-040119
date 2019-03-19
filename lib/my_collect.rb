@@ -11,6 +11,7 @@ def my_collect(arr)
   if arr[0].include?(" ")
     arr.map do |elem|
       elem.split(" ").first
+    end
   else
       n_str= arr.join(",")
     upp_str= n_str.upcase
