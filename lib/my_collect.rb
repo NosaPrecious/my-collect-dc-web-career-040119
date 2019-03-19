@@ -18,7 +18,6 @@ def my_collect(arr)
     n_arr= upp_str.split(",")
     n_arr
   end
-end
   else
     "not called by a block!"
   end
