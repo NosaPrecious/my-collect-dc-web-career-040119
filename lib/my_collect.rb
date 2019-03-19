@@ -12,12 +12,12 @@ def my_collect(arr)
   upp_str= n_str.upcase
   n_arr= upp_str.split(",")
   n_arr
-elsif arr.length == 0
-  arr.length
-else
+elsif arr[0].length == 2
   arr.map do |elem|
     elem.split(" ").first
   end
+  else
+  arr.length
 end
   else
     "not called by a block!"
