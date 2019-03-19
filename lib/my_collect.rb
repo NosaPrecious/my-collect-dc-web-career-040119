@@ -13,7 +13,7 @@ def my_collect(arr)
     n_arr= upp_str.split(",")
     n_arr
   elsif arr[0].length == 2
-    arr.map do |elem|
+      arr.map do |elem|
       elem.split(" ").first
   end
   else
