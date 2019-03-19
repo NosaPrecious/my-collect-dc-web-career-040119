@@ -8,7 +8,7 @@ def my_collect(arr)
   end
   # look at lambda or proc to solve this problem
   # because you have to pass the content of the modified block back to my_collect method
-  if arr[0].length < 2
+  if arr[0].include?(" ")
     n_str= arr.join(",")
     upp_str= n_str.upcase
     n_arr= upp_str.split(",")
