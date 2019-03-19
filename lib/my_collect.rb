@@ -12,7 +12,8 @@ def my_collect(arr)
   upp_str= n_str.upcase
   n_arr= upp_str.split(",")
   n_arr
-elsif arr.length
+elsif arr.length == 0
+  arr.length
 
 else
   arr.map do |elem|
