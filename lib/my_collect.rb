@@ -14,7 +14,6 @@ def my_collect(arr)
   n_arr
 elsif arr.length == 0
   arr.length
-
 else
   arr.map do |elem|
     elem.split(" ").first
