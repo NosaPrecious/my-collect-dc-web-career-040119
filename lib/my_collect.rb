@@ -17,7 +17,7 @@ def my_collect(arr)
       elem.split(" ").first
   end
   else
-  arr.length
+  arr
 end
   else
     "not called by a block!"
