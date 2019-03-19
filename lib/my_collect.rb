@@ -7,10 +7,9 @@ def my_collect(arr)
   end
   # look at lambda or proc to solve this problem
   # because you have to pass the content of the modified block back to my_collect method
-  n_str= arr.join(",")
-  upp_str= n_str.upcase
-  n_arr= upp_str.split(",")
-  n_arr
+  
+  arr.map do |elem|
+    
   
   else
     "not called by a block!"
