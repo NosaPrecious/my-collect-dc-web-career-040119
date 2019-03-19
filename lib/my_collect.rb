@@ -17,8 +17,6 @@ def my_collect(arr)
       arr.map do |elem|
       elem.split(" ").first
   end
-  else
-    arr
 end
   else
     "not called by a block!"
