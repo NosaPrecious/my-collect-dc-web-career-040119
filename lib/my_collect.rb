@@ -10,7 +10,7 @@ def my_collect(arr)
   n_str= arr.join(",")
   upp_str= n_str.upcase
   n_arr= upp_str.split(",")
-  
+  n_arr
   arr.map do |elem|
     elem.split(" ").first
   end
