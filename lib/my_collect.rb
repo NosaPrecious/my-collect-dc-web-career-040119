@@ -10,6 +10,7 @@ def my_collect(arr)
   
   arr.map do |elem|
     elem.split(" ").first
+  end
   else
     "not called by a block!"
   end
